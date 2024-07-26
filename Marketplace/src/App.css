@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* Neutral Colors */
+  /* --color-white: #ffffff; */
+  /* --color-black: #000000; */
+  --color-grey-dark: #2c3e50;
+  --color-grey: #7f8c8d;
+  --color-grey-light: #bdc3c7;
+  --color-grey-lighter: #ecf0f1;
+/* Background Colors */
+  --color-background:#312c2c;
+  --color-background-dark: #e0e0e0;
+
+ /* Text Colors */
+  --color-text:  #ffffff;
+  --color-text-light: #666666;
+
+  --main-bg-button: #4d8ef0;
+  --text-font:   "Titillium Web", sans-serif;
+  --head-font:   "Kanit", sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color:var(--color-background) !important;
+  color: #333;
+}
+.container{
+padding: 3rem 0rem;
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--head-font);
+  margin-bottom: 1.5rem;
+ color:var(--color-text) !important;
+  font-size: 3.6rem  !important;
+  font-weight: 700 ;
+  line-height: 1;
+}
+p {
+  color:var(--color-text);
+  font-family: var(--text-font);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height:30px;
+}
+a {
+
+  text-decoration: none;
+}
+.main-Button{
+  border-radius: 15px !important;
+  padding: 1.5rem  2.5rem !important;
+  background-color: var(--main-bg-button) !important;
+  font-size: 1.5rem !important;
+  
+  }
