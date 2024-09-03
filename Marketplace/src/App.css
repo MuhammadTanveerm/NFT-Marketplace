@@ -25,13 +25,13 @@
   --color-text:  #ffffff;
   --color-text-light: #666666;
 
-  --main-bg-button: #4d8ef0;
+  --main-bg-button: #2c76ee;
   --text-font:   "Titillium Web", sans-serif;
   --head-font:   "Kanit", sans-serif;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   line-height: 1.5;
   background-color:var(--color-background) !important;
   color: #333;
@@ -40,19 +40,20 @@ body {
 padding: 3rem 0rem;
 }
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5,h6 {
   font-family: var(--head-font);
   margin-bottom: 1.5rem;
  color:var(--color-text) !important;
-  font-size: 3.6rem  !important;
+  /* font-size: 3.6rem  !important; */
   font-weight: 700 ;
   line-height: 1;
 }
+
 p {
   color:var(--color-text);
   font-family: var(--text-font);
   margin-bottom: 1.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height:30px;
 }
 a {
@@ -61,8 +62,301 @@ a {
 }
 .main-Button{
   border-radius: 15px !important;
-  padding: 1.5rem  2.5rem !important;
+  padding: 1rem  1.5rem !important;
   background-color: var(--main-bg-button) !important;
-  font-size: 1.5rem !important;
+  font-size: 1zrem !important;
   
   }
+  .main-navbar{
+    background-color: var(--main-bg-color) !important;
+   
+}
+.main-navbar .container{
+  padding: 1rem 0rem;
+}
+.main-navbar .navbar-brand{
+    color:var(--color-text);
+    line-height: 1.6;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.main-navbar .brand-icon{
+    color:var(--main-bg-button)
+}
+.main-navbar  .nav-link{
+    font-size: 1rem;
+    color:var(--color-text) !important;
+    margin: 0rem 1.2rem;
+}
+
+/* Hero Section Css */
+.hero-section h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem !important;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  color:var(--color-text) !important;
+}
+
+.hero-section .hero-text{
+  padding: 1rem .5rem;
+}
+.hero-section .content-box   p{
+  margin:2rem 0rem
+}
+.main-Button:hover,
+.main-Button:focus,
+.main-Button:active{
+border-color: none !important;
+}
+.hero-section .main-Button  {
+border-radius: 25px !important;
+border-color: none !important;
+padding: 1rem  4.5rem !important;
+background-color: var(--main-bg-button);
+font-size: 1.rem !important;
+}
+.hero-section  .card{
+  z-index: 9;
+  border-color: inherit; 
+  background-color: red !important;
+  border-radius: 50px !important;  
+}
+
+.hero-section .card .card-title{
+font-size: 1.5rem;
+margin:1rem 0rem;
+}
+.hero-section .card   p{
+
+margin:0rem 1rem;
+
+}
+  .hero-section .card .card-body{
+      /* background-color: var(--main-bg-color); */
+      color: var(--color-text);
+      background-color: #1e2830;   
+  }
+.hero-section .card span img{
+      height:  40px;
+      width:40px;
+      border-radius: 50%;
+  }
+
+  .hero-section .numbers p {
+      font-size: 1.2rem;
+  }
+  .hero-section h3{
+      color:var(--color-text)
+    }
+
+    /* Collections Design */
+    .Collections .card{
+      background-color: inherit;
+      border: 0px;
+      
+    border-radius:10px;
+    }
+    .Collections img{
+      height:300px;
+      border-radius: 2rem;
+      }
+      .Collections .small-outer{
+        margin:1rem 0rem;
+      }
+      .Collections .small-outer img{
+        height: 100px;
+        width: 100px;
+        border-radius: 16px;
+      }
+      .Collections .small-outer .overlay{
+        position: relative;
+       
+        top: -70px;
+        color:var(--color-text) !important;
+        left:15px;
+        font-size:2rem;
+        
+      }
+      .Collections .card .card-title {
+       color:var(--color-text);
+       font-size: 1.2rem;
+      }
+      .Collections .card .founder {
+      font-size: 1.3rem;
+      margin:.6rem 0rem;
+      }
+      .Collections .card .founder img{
+        height: 30px;
+        width:30px;
+        border-radius: 50%;
+      
+      }
+      .Collections .card .card-body{
+        margin-top: 0rem
+      }
+
+      /* Signup css */
+      .signup-section img{
+        width: 100%;
+       height: 600px;
+    }
+    .signup-section .create-account{
+        margin-top: 1.5rem;
+        padding:3rem;
+    }
+    .signup-section .form_group
+    {
+        margin:1rem 0rem;
+        width: 75%;
+        
+        border: none;
+        /* background-color: red !important; */
+    }
+    .signup-section .btn{
+     background-color:var(--main-bg-button) !important;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 4rem;
+    padding:1rem 0rem;
+    }
+    .signup-section .input-group{
+     margin:2rem 0rem;
+    height: 4rem;
+    }
+    .signup-section .form-control
+    {
+      border-radius: 30px;
+    }
+    .signup-section .input-group-text{
+        border: none !important;
+        height: 4rem; 
+    }
+    .signup-section .form-control::placeholder{
+      font-size: 1.5rem;
+     
+    
+    }
+
+    /* Top creator Component Design */
+   
+    .top-creator .card{
+      border-radius: 5%;
+      background-color:#6d6969;
+    }
+    .top-creator .creatorid{
+      text-align:center;
+   margin-left: 1rem;
+   margin-top: 1rem;
+  
+      width:2rem;
+      border-radius: 50%; 
+      background-color: #b3b88e;
+    }
+
+    .top-creator .card .card-img-top{
+      border-radius: 50%;
+    margin: 0px 25%;
+     width: 120px;
+     height: 120px;
+    }
+    .top-creator .card-title{
+      font-size:1.5rem;
+      text-align:center;
+      color:var(--color-text)
+    }
+    .top-creator .card .card-text{
+      color: #dbf708;
+      font-size: 1rem;
+      text-align:center;  
+
+    }
+    .top-creator.card .card-text span #total{
+      color: #fefff3  !important;
+
+    }
+
+    /* Categories*/
+    /* .categories{
+
+    } */
+.categories .card {
+  border-radius: 1rem;
+  border: 0rem;
+}
+     .categories .card-img-top{
+      height: 250px;
+     }
+     .categories .card .card-body{
+      padding:.5rem 1rem;
+      
+      background-color: #1e2830;
+     }
+      /* / Footer Design */
+      footer {
+        background-color:#2b3238;
+        color: #fff;
+        
+      }
+      
+      .footer-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      
+      .footer-text {
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+      }
+      
+      .footer-links {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      
+      .footer-links li {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+      }
+      
+      .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      
+      .footer-links a:hover {
+        color: #6c63ff;
+      }
+      
+      .footer-icons a {
+        margin-right: 10px;
+        color: #fff;
+        transition: color 0.3s;
+      }
+      
+      .footer-icons a:hover {
+        color: #6c63ff;
+      }
+      
+      .footer-form .form-control {
+        height:3.5rem;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 0.5rem;
+      }
+      
+      .footer-form .btn-primary {
+        height: 3.5rem;
+        margin-left: -2rem;
+        width: 150px;
+        border-radius: 10px;
+        background-color: #6c63ff;
+        border-color: #6c63ff;
+      }
+      
+      .footer-form .btn-primary:hover {
+        background-color: #574bdb;
+        border-color: #574bdb;
+      }
